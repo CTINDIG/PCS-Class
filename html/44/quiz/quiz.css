@@ -1,0 +1,24 @@
+html {
+  background-color: black;
+}
+
+body {
+  background-color: white;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.box {
+  text-align: center;
+  border: 5px solid black;
+  background-color: yellow;
+  padding: 50px;
+  margin: 16px;
+  box-sizing: border-box;
+  width: 220px;
+  float: left;  
+}
+
+div h2 {   
+  clear: both;  
+}
