@@ -1,0 +1,88 @@
+header {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-color: cornflowerblue;
+   
+}
+body {
+    text-align: center;
+    margin-top: 352px;
+}
+
+caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+}
+
+.menu {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 281px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: navy;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:link {
+    color: crimson;
+}
+a:visited {
+    color: crimson;
+}
+a:hover {
+    color: seagreen;
+}
+a:active {
+    color: orange
+}
+.name {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), 
+  color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), 
+  color-stop(0.6, #2f2),color-stop(0.75, #23f), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+video {
+    width: 33.33%;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+th, td {
+    border: 5px solid black;
+    padding: 2em;
+    font-style: italic;
+}
+table th:nth-child(even){
+    background-color: lime;
+    color: magenta;
+}
+table td:nth-child(odd){
+    background-color: lime;
+    color: magenta;
+}
+table th:nth-child(odd){
+    background-color: grey;
+    color: gold;
+}
+table td:nth-child(even){
+    background-color: grey;
+    color: gold;
+}
