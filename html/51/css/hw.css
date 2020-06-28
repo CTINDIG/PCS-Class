@@ -1,0 +1,145 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin-left: 0px;
+    margin-bottom: 70px;
+}
+header {
+    background-color: black; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    z-index: 999;
+}
+
+footer {
+    background-color: black; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    z-index: 999;
+}
+
+.copyRight {
+    color: white;
+    padding-left: 222px;
+    padding-top: 17px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 197px;
+}
+
+.jumbotron {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 50px;
+    background-color: lightgrey;
+    width: 70%;
+    margin-left: 226px;
+    margin-bottom: 80px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 200px;
+}
+.jumbotron h1 {
+    text-transform: uppercase;
+    text-align: center; 
+    justify-content: center; 
+    align-items: center;
+    padding-right: 185px;
+    padding-left: 185px;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-top: 50px;
+}
+.jumbotron h2 {
+    text-align: center;
+    margin-top: -18px;
+}
+#products1 {
+    padding-left: 224px;
+}
+#productId {
+    padding-left: 224px;
+}
+video {
+    height: 177px;
+    width: 314px;
+}
+#computers {
+    justify-content: center;
+    text-align: center;
+    padding-left: 226px;
+    float: left;
+}
+#choirs {
+    text-align: center;
+    padding-left: 63px;
+    float: left;
+}
+#candy {
+    text-align: center;
+    padding-right: 174px;
+}
+.jumbotron2 {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 50px;
+    background-color: lightgrey;
+    width: 70%;
+    margin-left: 226px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    height: 200px;
+}
+.container2 {
+    text-align: center;
+    align-items: baseline;
+}
+input {
+    border-radius: 10px;
+}
+input[type="email" i] {
+    border-radius: 10px;
+}
+.finance {
+    padding-left: 222px;
+    padding-right: 222px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 323px;
+}
+td {
+    border: 3px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: right;
+}
+tr {
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about {
+    padding-left: 222px;
+    padding-right: 222px;
+}
