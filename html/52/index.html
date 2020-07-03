@@ -11,9 +11,26 @@
         body {
             padding: 3em 0;
         }
-         td:hover {
-            background-color:cornflowerblue; 
+        .table-bordered {
+            border: 5px solid #dee2e6;
         }
+        .table-hover tbody tr:hover {
+            background-color: lightblue;
+        }
+        th {
+            text-align: center;
+        }
+        td {
+            text-align: right;
+        }
+        td:first-child {
+            text-align: center;
+            font-weight: bold;
+        }
+        td:last-child {
+            text-align: center;
+        }
+    
     </style>
 </head>
 
@@ -91,12 +108,12 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error libero tempore cupiditate temporibus eveniet
             eum?</p>
         <div class="tablescroll">
-            <table class="table table-striped table-hover table-bordered">
+            <table class="table table-striped table-bordered table-hover">
                 <caption>Profits By Quarter</caption>
 
                 <thead>
                     <tr>
-                        <th>Year</th>
+                        <th class="font-weight-bold">Year</th>
                         <th>1st Quarter</th>
                         <th>Second Quarter</th>
                         <th>Third Quarter</th>
@@ -111,7 +128,7 @@
                         <td>6546456</td>
                         <td>54645654</td>
                         <td>6546</td>
-                        <td>654645</td>
+                        <td class="text-danger">654645</td>
                     </tr>
                     <tr>
                         <td>2018</td>
@@ -119,7 +136,7 @@
                         <td>565465</td>
                         <td>6546546</td>
                         <td>5465</td>
-                        <td>6546546</td>
+                        <td class="text-danger">6546546</td>
                     </tr>
                     <tr>
                         <td>2019</td>
@@ -127,7 +144,7 @@
                         <td>654645</td>
                         <td>456546</td>
                         <td>6456</td>
-                        <td>4646</td>
+                        <td class="text-danger">4646</td>
                     </tr>
                     <tr>
                         <td>2020</td>
@@ -135,13 +152,13 @@
                         <td>6544</td>
                         <td>NA</td>
                         <td>NA</td>
-                        <td>4757</td>
+                        <td class="text-danger">4757</td>
                     </tr>
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="5">Total</td>
-                        <td>466456</td>
+                        <td  class="text-danger text-right" colspan="5">Total</td>
+                        <td class="text-danger">466456</td>
                     </tr>
                 </tfoot>
             </table>
@@ -221,8 +238,8 @@
             laudantium corporis, nemo eaque architecto odit. Libero fugiat obcaecati facilis nam error impedit aut ea id
             ad ratione sequi totam, necessitatibus sit nisi repellat non nulla quia consectetur consequatur beatae
             eveniet. Molestias nobis beatae excepturi velit harum earum! Quae labore tempore sunt, fugit quas iure quia,
-            consequatur quidem explicabo blanditiis odio omnis? Debitis impedit perferendis velit accusamus non in hic
-            eum, id at molestias earum ipsa est iusto. End</p>
+            consequatur quidem explicabo blanditiis odio omnis? Debitis impedit perferendis velit accusamus.
+            </p>
     </section>
     <footer class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
         <div class="container">
