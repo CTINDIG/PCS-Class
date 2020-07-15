@@ -1,8 +1,8 @@
-  'use strict';
+  
 
 //Q1. 
 function ourEvery(theArray, callback){
-
+    'use strict';
     for (let i = 0; i < theArray.length; i++) {
         if (!callback(theArray[i])) {
            return false;
@@ -15,11 +15,13 @@ const upperCase = ['A', 'B', 'C'];
 const mixedCase = ['d', 'E', 'f'];
 const lowerCase = ['g', 'h', 'i'];
  
-function isUpperCase(letter) {
+function isUpperCase(letter) { 
+    'use strict';
     return letter === letter.toUpperCase();
 }
 
 function isLowerCase(letter) {
+    'use strict';
     return letter === letter.toLowerCase();
 }
 
@@ -38,7 +40,7 @@ console.log('Our every3', ourEvery(lowerCase, isLowerCase));  console.log('Built
 
 //Q2.
 function ourSome(theArray, callback){
-
+    'use strict';
     for (let i = 0; i < theArray.length; i++) {
         if (callback(theArray[i])) {
            return true;
@@ -62,6 +64,7 @@ console.log('Our some2', ourSome(lowerCase, isLowerCase));  console.log('Built i
 
 //Q3. 
 function onlyIf(theArray, test, action) {
+    'use strict';
  for (let i = 0; i < theArray.length; i++) {
      if (test(theArray[i])) {
          action(theArray[i]);
@@ -76,16 +79,13 @@ onlyIf(lowerCase, isUpperCase, console.log);
 
 //Q4. 
 function action() {
+    'use strict';
     console.log('PPeeeeerrrriiiimmm!!');
 }
 onlyIf(upperCase, isUpperCase, action);
 
 const result = upperCase.filter(isUpperCase);
 result.forEach(element => {
+   'use strict';
     action();
 });
-
-
-
-
-
