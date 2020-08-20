@@ -1,4 +1,5 @@
-//Q2. 
+// SL - nice
+//Q2.
 window.app = window.app || {};
 window.app.counter = (function() {
   'use strict';
@@ -12,6 +13,6 @@ window.app.counter = (function() {
     incrementCounter: function () {
        counter++;
     }
-};
+}; // SL - indentation
 
 }());

@@ -1,4 +1,5 @@
-//Q3. 
+// SL - nice
+//Q3.
  window.app = window.app || {};
  window.app.CreateCounters = (function() {
    'use strict';
@@ -26,4 +27,4 @@
  };
 
 }());
-  
+
