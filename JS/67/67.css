@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+img{
+   width: 320px;
+}
+iframe{
+    width: 1000px;
+    height: 800px;
+
+}
+ol{
+   display: inline-block;
+   align-items: center;
+}
+
+span{
+   font-weight: bold;
+}

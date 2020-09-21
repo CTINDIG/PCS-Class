@@ -1,0 +1,22 @@
+[
+    {
+        "Title": "Shira Choir",
+        "URL": "https://www.youtube.com/embed/ckVYO9oI8vc?autoplay=1",
+        "Image": "images/shira.jpg"
+    },
+    {
+        "Title": "Dudi Knopfler",
+        "URL": "https://www.youtube.com/embed/VTH6m7c2C_w?autoplay=1",
+        "Image": "images/DudiKnopfler.jpg"
+    },
+    {
+        "Title": "8th Day",
+        "URL": "https://www.youtube.com/embed/3fXIMUyrw7s?autoplay=1",
+        "Image": "images/8thDay.jpg"
+    },
+    {
+        "Title": "8th Day",
+        "URL": "https://www.youtube.com/embed/eN0NrR8U2bk?autoplay=1",
+        "Image": "images/Shtetl.jpg"
+    }
+]
