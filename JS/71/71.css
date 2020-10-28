@@ -1,0 +1,28 @@
+.parts {
+    position: absolute;
+    height: 220px;
+    width: 336px;   
+}
+
+body {
+    background-color: goldenrod;
+}
+
+#mouth {
+    height: 80px;
+    width: 144px;
+}
+
+#nose {
+    height: 80px;
+    width: 144px;
+}
+
+#face {
+    height: 150px;
+}
+
+li {
+    list-style: url(media/full.png);
+    height:550px;
+}
